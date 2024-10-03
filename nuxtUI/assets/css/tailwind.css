@@ -1,0 +1,32 @@
+/* assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-left {
+  @apply top-0 left-0;
+}
+.top-center {
+  @apply top-0 left-1/2 transform -translate-x-1/2;
+}
+.top-right {
+  @apply top-0 right-0;
+}
+.center-left {
+  @apply top-1/2 left-0 transform -translate-y-1/2;
+}
+.center {
+  @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+.center-right {
+  @apply top-1/2 right-0 transform -translate-y-1/2;
+}
+.bottom-left {
+  @apply bottom-0 left-0;
+}
+.bottom-center {
+  @apply bottom-0 left-1/2 transform -translate-x-1/2;
+}
+.bottom-right {
+  @apply bottom-0 right-0;
+}
