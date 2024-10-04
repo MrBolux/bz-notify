@@ -1,8 +1,4 @@
 OK :
-sound : active sound volume 
-Image stocker stocker dans le dist et trouver le chemin d'access pour les utiliser  OK
-Config : Position
-icon customisable
 
 
 A FAIRE : 
